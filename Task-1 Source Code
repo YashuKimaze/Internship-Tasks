@@ -1,1 +1,69 @@
+<!--    Hello, Myself Yash Thakur.
+        This is the source code of Task-1 Assingned to me
+        in the Inernship (Domain-Full Stack Development.)   -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+        }
+
+        h1 {
+            color: #3b889b;
+            text-align: center;
+        }
+
+        p {
+            color: #477e7e;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Welcome to My Webpage </h1>
+    <h1>Designed by Yash Thakur</h1>
+    <p>This is a Basic webpage created using HTML and CSS.</p>
+    <pre>Quick Synopsis - HTML is used to build raw Structure of the WEB Page
+                 CSS is used to style elements of the page.
+    </pre>
+    <a href="#" class="btn">Click Me</a>
+</div>
+
+</body>
+</html>
 
